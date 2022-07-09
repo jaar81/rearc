@@ -17,3 +17,12 @@ locals {
   prefix = "${var.prefix}-${terraform.workspace}"
 }
 
+locals {
+  common_tags = {
+    Environment = terraform.workspace
+    Project     = var.project
+    ManagedBy   = "Terraform"
+  }
+}
+
+data "aws_region" "current" {}
