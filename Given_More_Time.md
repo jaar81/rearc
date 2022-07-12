@@ -4,7 +4,8 @@ I'm leaving the site up for your validation. I mapped it to a personal subdomain
 You can check out my Dockerfile Here ==> https://github.com/jaar81/rearc/blob/rearc-container/Dockerfile
 I have the skeleton of my Terraform Files here. It's really quick and dirty. I largely copied it somewhere online but i can take some time polish it and make it usable. I've included it to show that I do know terraform and I can find the answers if needed
 
-CleanShot 2022-07-12 at 03.23.15@2x.png
+<img width="1974" alt="69A85274-525A-4ECD-BC6A-57A0556CF563" src="https://user-images.githubusercontent.com/52366166/178396044-201d49e9-f5e8-43e5-a949-977d3dfda8ec.png">
+
 
 # Given More Time;
 Several things would do 
