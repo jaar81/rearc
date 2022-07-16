@@ -1,8 +1,8 @@
-I'm leaving the site up for your validation. I mapped it to a personal subdomain :
+I'm leaving both versions EC2 and ECS sites up for your validation. I mapped it to a personal subdomain:
 
-==>  https://rearc.jude-aws.com/ (Here I have it running as a container on EC2)
-==> Here I have it running on an LB but as a service via Amazon's ECS ==>  https://rearc-lb-716-1086773472.us-east-1.elb.amazonaws.com/
-You can check out my Dockerfile Here ==> https://github.com/jaar81/rearc/blob/rearc-container/Dockerfile
+==>  https://rearc.jude-aws.com/                                        # (Here I have it running as a container on EC2)
+==>   https://rearc-lb-716-1086773472.us-east-1.elb.amazonaws.com/      # Here I have it running on an LB but as a service via Amazon's ECS
+==>  You can check out my Dockerfile Here ==>                           # https://github.com/jaar81/rearc/blob/rearc-container/Dockerfile
 
 
 <img width="1974" alt="69A85274-525A-4ECD-BC6A-57A0556CF563" src="https://user-images.githubusercontent.com/52366166/178396044-201d49e9-f5e8-43e5-a949-977d3dfda8ec.png">
