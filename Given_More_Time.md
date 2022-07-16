@@ -16,8 +16,8 @@ First the service should be in a private subnet, behind the load balancer in the
 - I also could have looked into creating workspaces for different envs 
 
 INITIAL FRUSTRATION now fixed
-I had submitted an initial version of this quest where i deployed to a container directly running on EC2. 
-Over the weekend i had sometime to ponder the issue and double checked my configurations. Turns out I forgot to allow all TCP from the from the Security Group of the ALB.
+I had submitted an initial version of this quest where i deployed to a container directly running on EC2, because i couldn't figure out the bug to successfully deploy via ECS..
+Over the weekend I had sometime to ponder the issue and double checked my configurations. Turns out I forgot to allow all TCP from the from the Security Group of the ALB.
 This allows us to use dynamically assigned ports from ECS and not having to configure a static port. 
 Also allows us to have the container scalability that ECS offers and to have it all run as a service  
 
