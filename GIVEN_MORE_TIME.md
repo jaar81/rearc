@@ -1,4 +1,4 @@
-Hi Team Rearc!
+## Hi Team Rearc!
 
 I had some trouble initially deploying this to AWS ECS as my preffered vehicle so I deployed it as a container to EC2
 After my submission and spent some time going over the initial frustrations and figured out where I went wrong. I was able to also deploy it to ECS after that.
