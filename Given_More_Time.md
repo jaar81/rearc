@@ -6,7 +6,9 @@ After my submission and spent some time going over the initial frustrations and 
 I'm leaving both versions EC2 and ECS sites up for your validation. I mapped it to a personal subdomain:
 
 ==>  https://rearc.jude-aws.com/                                        # (Here I have it running as a container on EC2)
+
 ==>  https://rearc-lb-716-1086773472.us-east-1.elb.amazonaws.com/      # Here I have it running as a service but deployed via Amazon's ECS
+
 ==>  You can check out my Dockerfile and others here                    # https://github.com/jaar81/rearc/blob/rearc-container/
 
 # Given More Time;
