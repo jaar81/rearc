@@ -11,7 +11,9 @@ I'm leaving both versions EC2 and ECS sites up for your validation. I mapped it 
 
 ==> # You can check out my Dockerfile and others here                         https://github.com/jaar81/rearc/blob/rearc-container/
 
-# Given More Time;
+
+
+# Given More Time...
 Several things would do 
 First the service should be in a private subnet, behind the load balancer in the public subnet. In an enterprise environment this obviously would be manndatory
 
