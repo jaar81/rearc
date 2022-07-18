@@ -1,10 +1,12 @@
+Hi Team Rearc!
+I had some trouble initially deploying this to AWS ECS as my preffered vehicle so I deployed it as a container to EC2
+After my submission and spent some time going over the initial frustrations and figured out where I went wrong. I was able to also deploy it to ECS after that.
+
 I'm leaving both versions EC2 and ECS sites up for your validation. I mapped it to a personal subdomain:
 
 ==>  https://rearc.jude-aws.com/                                        # (Here I have it running as a container on EC2)
 ==>  https://rearc-lb-716-1086773472.us-east-1.elb.amazonaws.com/      # Here I have it running as a service but deployed via Amazon's ECS
 ==>  You can check out my Dockerfile and others here                    # https://github.com/jaar81/rearc/blob/rearc-container/
-
-<img width="1974" alt="69A85274-525A-4ECD-BC6A-57A0556CF563" src="https://user-images.githubusercontent.com/52366166/178396044-201d49e9-f5e8-43e5-a949-977d3dfda8ec.png">
 
 # Given More Time;
 Several things would do 
